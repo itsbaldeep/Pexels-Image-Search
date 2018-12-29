@@ -1,0 +1,4 @@
+# API Key is in seperate JavaScript file
+# Ignored for security
+# Get your key from https://www.pexels.com/api/new/
+key.js

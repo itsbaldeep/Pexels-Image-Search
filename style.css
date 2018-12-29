@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#img {
+	margin: 10px 0;
+	width: 300px;
+	padding: 0 5px;
+	height: auto;
+}
+
+:focus {
+	outline: none;
+}
+
+#container {
+	float: left;
+	width: 87.33%;
+	margin: 40px 3%;
+	position: relative;
+}
+
+#input {
+	font: 15px/24px "Muli", sans-serif;
+	color: #333;
+	width: 100%;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+	border: 0;
+	padding: 7px 0;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+
+#input ~ #effect {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #4caf50;
+	transition: 0.4s;
+}
+#input:focus ~ #effect {
+	width: 100%;
+	transition: 0.4s;
+}
+
+#results {
+	padding: 120px 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color: #4caf50;
+}
